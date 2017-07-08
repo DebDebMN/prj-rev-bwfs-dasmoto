@@ -8,7 +8,7 @@ h1 {
   color: khaki;
   text-align: center;
 
-  background-image: url("Backgrounds/pattern1.jpeg");
+  background-image: url("../Images/pattern1.jpeg");
   height: auto;
   width: auto;  /* Have no idea if better way to do this. */
 }
