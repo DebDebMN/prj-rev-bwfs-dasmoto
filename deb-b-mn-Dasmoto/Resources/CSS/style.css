@@ -1,0 +1,40 @@
+html {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+
+  background-image: url("Backgrounds/pattern1.jpeg");
+  height: auto;
+  width: auto;  /* Have no idea if better way to do this. */
+}
+
+/* Each section header has the same font styling however
+*  each section header has a different background color. */
+h2{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.brushes h2{
+  background-color: mediumspringgreen;
+}
+
+.frames h2{
+  background-color: lightcoral;
+}
+
+.paint h2{
+  background-color: skyblue;
+}
+
+/* Pricing is noted in a highlighted color. */
+.prices {
+  font-weight: bold;
+  color: blue;
+}
